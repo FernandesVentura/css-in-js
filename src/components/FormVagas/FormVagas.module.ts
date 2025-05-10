@@ -7,6 +7,11 @@ export const Formulario = styled.form`
   padding: 32px;
   border-radius: 12px;
   margin-top: 40px;
+
+  @media (max-width: 768px) {
+    display: inline-block;
+    text-align: center;
+  }
 `
 
 export const BtnPesquisar = styled.button`
@@ -23,4 +28,11 @@ export const BtnPesquisar = styled.button`
 export const Campo = styled.input`
   padding: 0 16px;
   outline-color: var(--cor-principal);
+
+  @media (max-width: 768px) {
+    width: 98%;
+    padding: 8px;
+    margin-bottom: 8px
+
+  }
 `

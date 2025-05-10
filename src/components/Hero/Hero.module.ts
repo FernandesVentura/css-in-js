@@ -26,11 +26,13 @@ export const FormDiv = styled.div `
 `
 
 export const HeroTitle = styled.h2 `
-  font-family: Gloock, serif;
+  font-family:  sans-serif;
   font-size: 48px;
-
+  font-weigth: bold;
 
   @media (max-width: 768px) {
+    font-size: 38px;
+
     .form {
       height: auto;
       padding: 24px 0;
